@@ -96,12 +96,12 @@ For long list declarations the rules should be clustered into 5 discernable chun
 ```css 
 /* ALPHABETICAL ( no more than 10 rules ): */ 
 h4 {
-  color: #990000;
+	color: #990000;
 	font-weight: bold;
 	margin: 0 auto;
 	margin-bottom: 10px;
 	padding: 5px;
-  width: 90%;
+	width: 90%;
   }
 ```
 
@@ -112,8 +112,8 @@ h4 {
 	margin-bottom: 10px;
 	padding: 5px;
 	position: relative;
-    top: 20px;
-    right: 10px;
+		top: 20px;
+		right: 10px;
 	width: 90%;
 	z-index: 2;
   }
@@ -121,40 +121,40 @@ h4 {
 ```css
 /* Long Rule list clustered: */
 .selector {
-  /* Positioning */
-  position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-  z-index: 10;       
+	/* Positioning */
+	position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+	z-index: 10;       
 
-/* Display & Box Model */
-  border: 10px solid #333;
-  display: inline-block;
-  margin: 10px;
-  overflow: hidden;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-       -o-box-sizing: border-box;
-          box-sizing: border-box;
+	/* Display & Box Model */
+	border: 10px solid #333;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
 
-/* Stylizing */
-  background: #000;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 16px;
-  text-align: right;
+	/* Stylizing */
+	background: #000;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: right;
 
 /* Transforms / Transitions */
-  -webkit-transform: rotate(7deg;
-      -ie-transform: rotate(7deg;
-          transform: rotate(7deg;
+	-webkit-transform: rotate ( 7deg );
+	    -ie-transform: rotate ( 7deg );
+	        transform: rotate ( 7deg );
 
 /* Animation */
-  -webkit-animation: myfade 5s linear;
-      -ie-animation: myfade 5s linear;
-          animation: myfade 5s linear;
+	-webkit-animation: myfade 5s linear;
+	    -ie-animation: myfade 5s linear;
+	        animation: myfade 5s linear;
   }
   
   @-webkit-keyframes myfade {
