@@ -251,7 +251,7 @@ Formatting the code for multiple users is critical for accessibility and editing
 <a name="ack"></a>
 ### 6. Acknowledgements###
 
-Special thank you to Niclas Gallagher for the inspiration. [github.com/necolas/idiomatic-css](https://github.com/necolas/idiomatic-css).
+Special thank you to Nicolas Gallagher for the inspiration. [github.com/necolas/idiomatic-css](https://github.com/necolas/idiomatic-css).
 
 Thank you to all who have, and might still, contributed to this project.
 
